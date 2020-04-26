@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="5dp"
+    >
+
+    <TextView
+        android:id="@+id/ten"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên của bạn " />
+
+    <EditText
+        android:id="@+id/nhapten"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:inputType="text"
+        android:hint="Nhập tên bạn vào đây " />
+
+    <TextView
+        android:id="@+id/ngaysinh"
+        android:inputType="datetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh" />
+
+    <EditText
+        android:id="@+id/nhapngaysinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="datetime"
+        android:hint="Nhập ngày sinh vào đây" />
+
+    <TextView
+        android:id="@+id/gioitinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giới tính" />
+
+    <RadioGroup
+        android:id="@+id/groupgt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+
+
+        <RadioButton
+            android:id="@+id/nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nam"
+            android:checked="true"
+            android:layout_weight="1"
+            />
+
+        <RadioButton
+            android:id="@+id/nu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nu"
+              android:checked="true"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/sothich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sở thích của bạn " />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem phim" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nghe nhạc" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đi cafe với bạn bè" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="ở nhà một mình" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Vào bếp nấu ăn" />
+
+
+
+    <TextView
+        android:id="@+id/sthichkhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:text="Sở thích khác" />
+
+    <EditText
+        android:id="@+id/nhapsothichkhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint=" Nhập sở thích khác " />
+
+    <Button
+        android:id="@+id/xacnhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="xác nhận" />
+
+</LinearLayout>
